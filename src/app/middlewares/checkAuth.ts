@@ -26,7 +26,7 @@ export const checkAuth = async (
     if (!token) {
       throw new AppError(
         httpStatus.UNAUTHORIZED,
-        "Authentication required. Please login."
+        "Authentication required; Please login."
       );
     }
 
