@@ -1,4 +1,3 @@
-import { Prisma } from "@prisma/client";
 import { excludeField } from "../constants";
 
 type WhereInput = any; // Prisma where input type
@@ -56,6 +55,9 @@ export class QueryBuilder {
             contains: value,
             mode: "insensitive",
           };
+        } else if (key === "isActive" || key === "isRecurring" || key === "isApproved" || key === "isBanned" || key === "isEmailVerified") {
+          // Boolean fields - convert string to boolean
+          filter[key] = value === "true";
         } else {
           // Direct field filter
           filter[key] = value;
@@ -196,4 +198,3 @@ export class QueryBuilder {
     return this.where;
   }
 }
-
