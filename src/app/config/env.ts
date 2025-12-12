@@ -43,10 +43,10 @@ export const config: AppConfig = {
   env: process.env.NODE_ENV || "development",
   port: Number(process.env.PORT) || 5000,
   databaseUrl:
-    process.env.DATABASE_URL || "postgres://user:pass@localhost:5432/voyago",
+    process.env.DATABASE_URL || "postgres://user:pass@localhost:5432/TourGuide",
   jwt: {
-    accessSecret: process.env.JWT_ACCESS_SECRET || "voyago-access-secret",
-    refreshSecret: process.env.JWT_REFRESH_SECRET || "voyago-refresh-secret",
+    accessSecret: process.env.JWT_ACCESS_SECRET || "TourGuide-access-secret",
+    refreshSecret: process.env.JWT_REFRESH_SECRET || "TourGuide-refresh-secret",
     accessExpiresIn: process.env.JWT_ACCESS_EXPIRES_IN || "15m",
     refreshExpiresIn: process.env.JWT_REFRESH_EXPIRES_IN || "7d",
   },

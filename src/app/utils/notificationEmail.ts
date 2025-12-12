@@ -81,14 +81,14 @@ function generateEmailHtml(
     <body>
       <div class="container">
         <div class="header">
-          <h1>Voyago</h1>
+          <h1>TourGuide</h1>
         </div>
         <div class="content">
           <h2>Hello ${userName},</h2>
           <p>${payload.message}</p>
         </div>
         <div class="footer">
-          <p>© ${new Date().getFullYear()} Voyago. All rights reserved.</p>
+          <p>© ${new Date().getFullYear()} TourGuide. All rights reserved.</p>
         </div>
       </div>
     </body>

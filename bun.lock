@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "voyago-api",
+      "name": "TourGuide-api",
       "dependencies": {
         "@aws-sdk/client-s3": "^3.943.0",
         "@prisma/adapter-pg": "^7.0.1",

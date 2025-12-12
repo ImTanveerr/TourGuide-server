@@ -15,12 +15,12 @@ export function SendOTPEmail({
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Verify Your Email - Voyago</title>
+    <title>Verify Your Email - TourGuide</title>
   </head>
   <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f4f4f4;">
     <div style="background-color: #ffffff; padding: 40px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
       <div style="text-align: center; margin-bottom: 30px;">
-        <h1 style="color: #2563eb; margin: 0;">Voyago</h1>
+        <h1 style="color: #2563eb; margin: 0;">TourGuide</h1>
       </div>
 
       <h2 style="color: #1f2937; margin-top: 0; margin-bottom: 20px;">
@@ -32,7 +32,7 @@ export function SendOTPEmail({
       </p>
 
       <p style="margin-bottom: 20px;">
-        Thank you for registering with Voyago! To complete your registration, please verify your email address using the OTP code below:
+        Thank you for registering with TourGuide! To complete your registration, please verify your email address using the OTP code below:
       </p>
 
       <div style="background-color: #f3f4f6; border: 2px dashed #9ca3af; border-radius: 8px; padding: 20px; text-align: center; margin: 30px 0;">
@@ -61,7 +61,7 @@ export function SendOTPEmail({
       <hr style="border: none; border-top: 1px solid #e5e7eb; margin: 30px 0;" />
 
       <p style="font-size: 12px; color: #9ca3af; text-align: center; margin: 0;">
-        © ${new Date().getFullYear()} Voyago. All rights reserved.
+        © ${new Date().getFullYear()} TourGuide. All rights reserved.
       </p>
     </div>
   </body>

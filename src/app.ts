@@ -49,7 +49,7 @@ app.use(cookieParser());
 app.get("/health", (_req, res) => {
   res.status(httpStatus.OK).json({
     success: true,
-    message: "Voyago API is running",
+    message: "TourGuide API is running",
   });
 });
 

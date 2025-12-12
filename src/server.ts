@@ -8,5 +8,5 @@ const PORT = config.port;
 
 server.listen(PORT, () => {
   // eslint-disable-next-line no-console
-  console.log(`🚀 Voyago API listening on port ${PORT}`);
+  console.log(`🚀 TourGuide API listening on port ${PORT}`);
 });

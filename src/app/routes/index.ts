@@ -40,7 +40,7 @@ moduleRoutes.forEach((route) => {
 router.get("/health", (_req, res) => {
   res.json({
     success: true,
-    message: "Voyago API v1 is healthy",
+    message: "TourGuide API v1 is healthy",
   });
 });
 

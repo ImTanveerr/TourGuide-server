@@ -62,7 +62,7 @@ export async function sendOTPEmail(
     const { data, error } = await resend.emails.send({
       from: fromEmail,
       to: email,
-      subject: "Verify Your Email - Voyago",
+      subject: "Verify Your Email - TourGuide",
       html: SendOTPEmail({
         otp,
         verificationUrl,
