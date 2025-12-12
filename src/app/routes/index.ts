@@ -14,7 +14,6 @@ import { UserRoutes } from "../modules/user/user.route";
 import { WishlistRoutes } from "../modules/wishlist/wishlist.route";
 
 const router = Router();
-
 const moduleRoutes = [
   { path: "/auth", route: AuthRoutes },
   { path: "/users", route: UserRoutes },
